@@ -15,7 +15,7 @@
 <body>
     <!-- CONTENT GOES HERE -->
     <h3>I wake up...</h3>
-    <section class="wake_up">
+    <section id="wake_up" class="wake_up">
         <div>
             <!-- slider link: https://stackoverflow.com/questions/43261985/jquery-range-slider-with-image-swap  -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -29,8 +29,9 @@
 
     <section class="look_in_mirror">
         <h3>and I look in the mirror.</h3>
-        <a href="./mirror_words/index.html"><img id="mirror_look" src="./images/look mirror.png" /></a>
-       
+        <img id="mirror_look" src="./images/look mirror.png" onclick="foobar()" />
+        <img class="hide" id="mirror_image" src="./images/mirror with words.png" />
+
 
     </section>
 
