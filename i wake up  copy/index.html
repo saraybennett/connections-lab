@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>mirror mirror 🪞</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- CONTENT GOES HERE -->
+    <h3>I wake up...</h3>
+    <section id="wake_up" class="wake_up">
+        <div>
+            <!-- slider link: https://stackoverflow.com/questions/43261985/jquery-range-slider-with-image-swap  -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        </div>
+        <img src="./images/lay down.png" id='img' />
+        <input type="range" id="slider" value="0.0" min="0" max="2" step="1" />
+        <div>
+            <p>slide to wake up</p>
+        </div>
+    </section>
+
+    <section class="look_in_mirror">
+        <h3>and I look in the mirror.</h3>
+        <img id="mirror_look" src="./images/look mirror.png" onclick="foobar()" />
+        <img class="hide" id="mirror_image" src="./images/mirror with words.png" />
+
+
+    </section>
+
+    <!-- Link to JS libraries and external files -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
