@@ -15,6 +15,15 @@ $(document).on('input change', '#slider', function () {//listen to slider change
 });
 
 //step two -- mirror button
+function foobar(){
+    x=document.getElementById("wake_up");
+    x.classList.add("hide");
+    y=document.getElementById("mirror_look");
+    y.classList.add("hide");
+    z=document.getElementById("mirror_image");
+    z.classList.remove("hide");
+}
+
 
 //The Mirror Button
 // console.log ('hi');
