@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project__heading {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.dataset_section {
+    text-align: center;
+}
+
+.click_dataset {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.hide_one {
+    display: none;
+}
+
+.hide_two {
+    display: none;
+}
