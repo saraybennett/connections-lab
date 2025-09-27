@@ -1,27 +1,53 @@
 body {
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: white;
+    margin: 50px;
+    background-image: url('background.png');
+    background-size: cover;
+    font-family: "Pixelify Sans", sans-serif;
+
+} 
+
+a {
+    color: gold;
 }
 
 .project__heading {
     text-align: center;
+    margin: 100px 200px;
+    font-size: 16px;
+}
+
+.dataset{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.dataset_section_one {
+    text-align: center;
     margin: 100px 0;
 }
 
-.dataset_section {
+.button{
     text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
 }
 
-.click_dataset {
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-}
-
-.hide_one {
-    display: none;
-}
-
-.hide_two {
-    display: none;
-}
