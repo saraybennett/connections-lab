@@ -235,27 +235,3 @@ window.addEventListener("load", () => {
     });
 });
 
-// //listen for button click event
-// let button = document.getElementById('button');
-
-// //1. listen to event click on the button 2. fetch data from api 3. display that data on the webpage
-// button.addEventListener('click', function () {
-//     fetch('https://www.freepublicapis.com/api/random')
-//         .then(response => response.json())
-//         .then(data => {
-
-//             let nameElement = document.querySelector('#api-name');
-//             nameElement.innerHTML = data.title;
-
-//             let documentationElement = document.querySelector('#api-documentation');
-//             documentationElement.innerHTML = data.documentation;
-
-//             let descriptionElement = document.querySelector('#api-description');
-//             descriptionElement.innerHTML = data.description;
-
-//             // let descriptionElement = document.querySelector('#api-description');
-//             // descriptionElement.innerHTML = data.description;
-//         })
-//         .catch(function (err) {
-//             console.error(err);
-//         })
