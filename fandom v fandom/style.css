@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  color: white;
+  margin: 50px;
+  background-image: url("background1.jpeg");
+  background-size: cover;
+}
+
+a {
+  color: gold;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.project__heading {
+  text-align: center;
+  margin: 100px 200px;
+  font-size: 16px;
+}
+
+#center_popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+#pop_up {
+  position: fixed;
+  background-color: red;
+}
+
+.dataset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  margin: 100px;
+}
+
+.dataset_section {
+  text-align: center;
+}
+
+.vs_image {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 15px 15px 15px 15px;
+  background-color: #ffdc73;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: #ffbf00;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em #ffbf00;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .project__heading {
+  text-align: center;
+  margin: 0px;
+}
+  h1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+  .dataset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+  }
+}
