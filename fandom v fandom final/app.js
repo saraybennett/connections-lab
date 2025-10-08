@@ -240,6 +240,11 @@ window.addEventListener("load", () => {
 
       //when user clicks fandom button one, something happens depending on if that fandom is bigger
       fandomButtonOne.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
         if (numWorksOne > numWorksTwo) {
           console.log("number one bigger");
 
@@ -253,6 +258,11 @@ window.addEventListener("load", () => {
 
       //when user clicks fandom button two, something happens depending on if that fandom is bigger
       fandomButtonTwo.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
         if (numWorksTwo > numWorksOne) {
           console.log("number two bigger");
 
